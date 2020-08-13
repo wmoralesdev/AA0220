@@ -35,6 +35,8 @@ int main(void) {
 
     printFormat("Reverse string");
     cout << reverseString("Reverting") << endl << endl;
+
+    return 0;
 }
 
 void printFormat(string toPrint) {

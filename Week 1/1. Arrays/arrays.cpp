@@ -34,6 +34,8 @@ int main(void) {
         includeArray.at(i) = i + 1;
 
     printArray(includeArray);
+
+    return 0;
 }
 
 void fillArray(int* arr, int size) {
