@@ -1,1 +1,0 @@
-void push(queue*, int);
