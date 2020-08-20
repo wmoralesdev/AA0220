@@ -28,4 +28,22 @@
 
 ### Auxiliary reference
 - [Pointers](https://www.geeksforgeeks.org/pointers-c-examples/)
+- ["What are pointers?"](https://youtu.be/iChalAKXffs)
 - [Malloc VS new](https://www.geeksforgeeks.org/malloc-vs-new/)
+<br><hr>
+
+## Week 2
+### Summary
+- [Recursion](https://github.com/wmoralesdev/AA0220/tree/empty/Week%202/0.%20Recursion)
+- [Stacks](https://github.com/wmoralesdev/AA0220/tree/empty/Week%202/1.%20Stack)
+    - With include
+    - Pointer
+- [Queues](https://github.com/wmoralesdev/AA0220/tree/empty/Week%202/2.%20Queue)
+    - With include
+    - Pointer
+- [Linked lists](https://github.com/wmoralesdev/AA0220/tree/empty/Week%202/3.%20Lists)
+    - With include
+    - Pointer
+
+### Auxiliary reference
+*Empty at the moment*
