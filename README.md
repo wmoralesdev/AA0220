@@ -2,7 +2,7 @@
 
 ## Summary
 ### [Week 1, August 17 - August 21](https://github.com/wmoralesdev/AA0220/tree/empty/Week%201)
-### Week 2, August 24 - August 28
+### [Week 2, August 24 - August 28](https://github.com/wmoralesdev/AA0220/tree/empty/Week%202)
 ### Week 3, August 31 - September 4
 ### Week 4, September 7 - September 11
 
