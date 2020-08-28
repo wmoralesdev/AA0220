@@ -120,15 +120,11 @@ void push(queue* q, T info) {
     }
 }
 
-// Deletes node at back position
 void pop(queue* q) {
     node* aux = q->front;
+    q->front = q->front->next;
 
-    while(aux->next->next)
-        aux = aux->next;
-
-    aux->next = NULL;
-    q->back = aux;
+    delete aux;
 }
 
 // Swap interchanges queue1 with queue2

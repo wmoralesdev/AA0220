@@ -103,7 +103,10 @@ void push(node** s, T info) {
 
 // Pop deletes top node
 void pop(node** s) {
+    node* aux = *s;
     *s = (*s)->next;
+
+    delete aux;
 }
 
 // Top returns reference to node at top position, existing nexus should be ignored

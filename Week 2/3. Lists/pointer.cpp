@@ -166,7 +166,10 @@ void pushAt(int pos, T info, node** list) {
 int remove(T e, node** list) {
     if(*list) {
         if((*list)->info == e){
+            node* aux = *list;
             *list = (*list)->next;
+            delete aux;
+
             return 1 + remove(e, list);
         }
         else
@@ -180,7 +183,10 @@ int remove(T e, node** list) {
 bool removeFirst(T e, node** list) {
     if(*list) {
         if((*list)->info == e){
+            node* aux = *list;
             *list = (*list)->next;
+            delete aux;
+
             return true;
         }
         else
@@ -195,7 +201,10 @@ template <class Predicative>
 int removeIf(Predicative pr, node** list) {
     if(*list) {
         if(pr((*list)->info)) {
+            node* aux = *list;
             *list = (*list)->next;
+            delete aux;
+
             return 1 + removeIf(pr, list);
         }
         else
@@ -209,7 +218,10 @@ int removeIf(Predicative pr, node** list) {
 bool removeAt(int current, int pos, node** list) {
     if(*list) {
         if(current == pos){
+            node* aux = *list;
             *list = (*list)->next;
+            delete aux;
+            
             return true;
         }
         else
