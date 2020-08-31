@@ -15,17 +15,18 @@ int main(void) {
 
     for(int i = 0; i < 10; i++) {
         push(rand() % 5, &stk);
+        
     }
 
     traverseStack(stk);
-    replace(9, 2, &stk);
+    replace(100, 0, &stk);
     traverseStack(stk);
 
     return 0;
 }
 
 void push(int data, node** stk) {
-    node*n = new node;
+    node* n = new node;
     n->data = data;
 
     n->next = *stk;

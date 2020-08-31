@@ -46,13 +46,13 @@ int main(void) {
     queue q;
     q.front = q.back = NULL;
 
-    push(&q, T("Walter", ret, 2));
-    push(&q, T("Enmanuel", dep, 3));
-    push(&q, T("Daniela", dep, 2));
-    push(&q, T("Miguel", pay, 4));
-    push(&q, T("Andrea", up, 1));
-    push(&q, T("Xiomara", que, 1));
-    push(&q, T("Rafael", ret, 1));
+    push(&q, T("Walter", pay, 1));
+    push(&q, T("Enmanuel", pay, 1));
+    push(&q, T("Daniela", pay, 1));
+    push(&q, T("Miguel", pay, 1));
+    push(&q, T("Andrea", pay, 1));
+    push(&q, T("Xiomara", pay, 1));
+    push(&q, T("Rafael", pay, 1));
 
     cout << "Average waiting time: " << average(q) << endl;
 
