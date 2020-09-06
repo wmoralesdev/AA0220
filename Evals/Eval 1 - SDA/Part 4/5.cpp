@@ -1,7 +1,7 @@
 
 //Data structure to be used
 typedef struct Form{       //we use typedef to save some space in the file
-    bool signed = false;    //the signature status of the form
+    bool s = false;    //the signature status of the form
     struct Form* next;     //link to the next form
 }Form;
 
@@ -16,13 +16,13 @@ Form** paperwork(Form **top){
         Form *temp = *top->next;
         //We redirect the current form towards the top of the new stack
         //after signing it
-        *top->signed = true;
+        *top->s = true;
         *top->next = top2;
         //We update the new top of the new stack
         top2 = *top;
         //We update the new top of the original stack
         *top = temp;
     }
-    //We return the new stack of signed forms
+    //We return the new stack of s forms
     return &top2;
 }
