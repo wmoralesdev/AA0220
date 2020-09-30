@@ -71,6 +71,7 @@ int main(void) {
     pushAt(4, T(4, 'd'), &dl.front);
     cout << "List after pushing at 4" << endl;
     traverseBegin(dl.front);
+    cout << endl;
 
     cout << "Deleting 0 with remove: " << remove(T(0, '*'), &dl.front) << endl;
     traverseBegin(dl.front);
@@ -106,8 +107,8 @@ void pushFront(T info, doubleLinked* dl) {
     // Make new next equals front of current list, 
     // make current list front.prev point at new node
     // and alter front pointer
-    n->next = dl->front;
     dl->front->prev = n;
+    n->next = dl->front;
     dl->front = n;
 }
 
@@ -175,7 +176,8 @@ void traverseBegin(node* front) {
 void traverseEnd(node* back) {
     if(back) {
         cout << back->info.toString() << "  ";
-        traverseBegin(back->prev);
+        // traverseBegin(back->prev); Line with error, wrong recursive call
+        traverseEnd(back->prev);
     }
     else
         cout << endl;
