@@ -12,6 +12,11 @@ typedef struct LabeledQueue{
     Node* queue;
 }LabeledQueue;
 
+// Al declarar
+node* tree = NULL;
+// Al enviar
+insertInTree(3, &tree);
+
 Node* Queueify(int* A, int* n){
     Node *Q = new Node;
     Q->issue = A[0];
@@ -96,3 +101,8 @@ void Comics(int* n, int** superheroes){
     CountConditionNodes(&n, A);
     MergeSort(A, 0, *n - 1);
 }
+
+// Para modificar el arbol o acceder a su nodo actual
+*tree = new node(20);
+
+insertInTree(info, &(*tree)->left);
