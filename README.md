@@ -1,12 +1,4 @@
-# Análisis de Algoritmos
-
-## Summary
-### [Week 1, August 17 - August 21](https://github.com/wmoralesdev/AA0220/tree/empty/Week%201)
-### [Week 2, August 24 - August 28](https://github.com/wmoralesdev/AA0220/tree/empty/Week%202)
-### Week 3, August 31 - September 4
-### Week 4, September 7 - September 11
-
-<hr>
+# Algorithm Analysis
 
 ## Week 1
 ### Summary
@@ -46,4 +38,46 @@
     - Pointer
 
 ### Auxiliary reference
-*Empty at the moment*
+*None*
+
+## Week 3
+### Summary
+- [Circular Lists](https://github.com/wmoralesdev/AA0220/tree/empty/Week%203/1.%20Circular%20lists)
+- [Doubly Linked Lists](https://github.com/wmoralesdev/AA0220/tree/empty/Week%203/2.%20Double%20linked%20lists)
+    - With include
+    - Pointer
+
+### Auxiliary reference
+*None*
+
+## Week 4
+### Summary
+- [Binary Trees](https://github.com/wmoralesdev/AA0220/tree/empty/Week%204/1.%20Binary%20trees)
+- [MergeSort](https://github.com/wmoralesdev/AA0220/tree/empty/Week%204/2.%20Merge%20Sort)
+
+### Auxiliary reference
+[VisuALGO](https://visualgo.net/en/sorting)
+
+## Week 5
+### Summary
+- [HeapSort](https://github.com/wmoralesdev/AA0220/blob/empty/Week%205/heapsort.cpp)
+
+### Auxiliary reference
+[VisuALGO](https://visualgo.net/en/sorting)
+
+## Week 6
+### Summary
+- [MergeSort and HeapSort applications](https://github.com/wmoralesdev/AA0220/tree/empty/Week%206/SDA)
+
+### Auxiliary reference
+[VisuALGO](https://visualgo.net/en/sorting)
+
+
+## Week 7
+### Summary
+- [QuickSort](https://github.com/wmoralesdev/AA0220/tree/empty/Week%207/SDA)
+    - With Vector
+    - With DoublyLinked Lists
+
+### Auxiliary reference
+[VisuALGO](https://visualgo.net/en/sorting)
